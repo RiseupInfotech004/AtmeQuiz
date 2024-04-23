@@ -3,7 +3,29 @@
 <html lang="en" dir="ltr">
 	<head>
         
-         
+         <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDLERviQpUvhIDhSP0GFdN8tYSJ50XH2mQ",
+    authDomain: "atmequiz---smit.firebaseapp.com",
+    projectId: "atmequiz---smit",
+    storageBucket: "atmequiz---smit.appspot.com",
+    messagingSenderId: "37105321209",
+    appId: "1:37105321209:web:db9a1b66988e2731270e28",
+    measurementId: "G-9MT63JFJVS"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
           <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
       window.googletag = window.googletag || {cmd: []};
